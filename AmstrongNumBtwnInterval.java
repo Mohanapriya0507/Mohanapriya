@@ -1,0 +1,31 @@
+import java.util.*;
+public class AmstrongNumBtwnInterval{
+    public static void main(String args[]){
+}
+int n,r,x,s;
+
+
+
+for(n=1;n<=500;n++){
+
+ 
+
+s=0;
+
+x=n;
+
+while(x!=0){
+
+r=x%10;
+
+s=s+r*r*r;
+
+x=x/10;
+
+}
+
+if(s==n)
+
+System.out.println(n);
+
+}}}
