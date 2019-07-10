@@ -5,8 +5,8 @@ public class NextNum {
 		// TODO Auto-generated method stub
 Scanner sc=new Scanner(System.in);
    int n=sc.nextInt();
-   int p=1;
-   int m=n+p;
+  
+   int m=n+1;
    System.out.println(m);
 	}
 
